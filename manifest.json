@@ -6,7 +6,7 @@
 "description": "Opens Jira Links in New Tab.",
 "version": "0.2",
 "content_scripts": [{
-	"matches": ["https://SUBDOMAIN.atlassian.net/*"],
+	"matches": ["https://*.atlassian.net/*"],
 	"js": ["jquery.js", "background.js"]
 }],
 
@@ -15,5 +15,5 @@
 },
 
 "permissions": [
-	"https://SUBDOMAIN.atlassian.net/"]
+	"https://*.atlassian.net/"]
 }
