@@ -4,7 +4,7 @@
 
 "name": "Open Jira Links in New Tab",
 "description": "Opens Jira Links in New Tab.",
-"version": "0.1",
+"version": "0.2",
 "content_scripts": [{
 	"matches": ["https://SUBDOMAIN.atlassian.net/*"],
 	"js": ["jquery.js", "background.js"]
