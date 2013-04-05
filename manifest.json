@@ -1,0 +1,19 @@
+{
+	
+"manifest_version": 2,
+
+"name": "Open Jira Links in New Tab",
+"description": "Opens Jira Links in New Tab.",
+"version": "0.1",
+"content_scripts": [{
+	"matches": ["https://SUBDOMAIN.atlassian.net/*"],
+	"js": ["jquery.js", "background.js"]
+}],
+
+"icons": {
+	"48": "icon48.png"
+},
+
+"permissions": [
+	"https://SUBDOMAIN.atlassian.net/"]
+}
